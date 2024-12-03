@@ -7,7 +7,7 @@ import {
 } from './constants/pageData';
 
 const configs = {
-  title: 'Tomas Gonzalez',
+  title: 'Jagrit Seth',
   subTitle: 'Dev portfolio.',
   stars: {
     maxSize: 20,
@@ -16,7 +16,7 @@ const configs = {
     // url: 'icons/three-js-logo.png',
     dencity: 900,
   },
-  navTitle: 'Tomas Gonzalez portfolio.',
+  navTitle: 'Jagrit Seth portfolio.',
   relevantStops: STOPS,
   pages: [
     {
@@ -28,7 +28,7 @@ const configs = {
       infos: [
         "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
         '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
-        '* I started my career as a front-end developer around 6 years ago in 2017, and since then I have helped many startup companies and non-profit organizations to develop quality products.',
+        '* I started my career as a full-stack developer around 3 years ago in 2022, and since then I have helped Samsung and Rizzle to develop quality products.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
       ],
     },
@@ -67,53 +67,53 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://docs.google.com/document/d/1wKGkXHhd7q5v3AOGPMK6Gtehpp_Tkp90BvUufUqQIRc/edit?usp=sharing',
+              'https://drive.google.com/file/d/1B7M2g9x3t9QrWcLT8rbqgdsgjxSfGAGr/view?usp=drive_link',
           },
         ],
       },
     },
-    {
-      scale: 15,
-      displayAt: displayAt('Personal Projects'),
-      rotation: [Math.PI / 2, 0, 0],
-      position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Personal Projects',
-      footer: '(And also this web-app)',
-      imageList: {
-        rows: 2,
-        separation: 2.5,
-        leftPadding: -0.4,
-        topPadding: 0.2,
-        scale: 0.3,
-        items: [
-          {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
-          },
-          {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
-          },
-          {
-            url: 'websites-preview/minecraft-in-js.png',
-            websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
-          },
-          {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
-          },
-          {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
-          },
-          {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
-          },
-        ],
-      },
-    },
+    // {
+    //   scale: 15,
+    //   displayAt: displayAt('Personal Projects'),
+    //   rotation: [Math.PI / 2, 0, 0],
+    //   position: [0, -PAGE_DEPH_MARGIN, 0],
+    //   title: 'Personal Projects',
+    //   footer: '(And also this web-app)',
+    //   imageList: {
+    //     rows: 2,
+    //     separation: 2.5,
+    //     leftPadding: -0.4,
+    //     topPadding: 0.2,
+    //     scale: 0.3,
+    //     items: [
+    //       {
+    //         url: 'websites-preview/nft-place-logo.png',
+    //         websiteURL: 'https://nft-place.xyz/',
+    //       },
+    //       {
+    //         url: 'websites-preview/snow-hero.png',
+    //         websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+    //       },
+    //       {
+    //         url: 'websites-preview/minecraft-in-js.png',
+    //         websiteURL:
+    //           'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
+    //       },
+    //       {
+    //         url: 'websites-preview/fish-chopter.png',
+    //         websiteURL: 'https://powtom48.itch.io/fishcopter',
+    //       },
+    //       {
+    //         url: 'websites-preview/odd-clowns.png',
+    //         websiteURL: 'https://oddclowns.com/',
+    //       },
+    //       {
+    //         url: 'websites-preview/island-ai.png',
+    //         websiteURL: 'https://www.instagram.com/island.ai/',
+    //       },
+    //     ],
+    //   },
+    // },
     {
       scale: 15,
       displayAt: displayAt('Get In Touch'),
@@ -129,21 +129,21 @@ const configs = {
         scale: 0.3,
         items: [
           {
-            url: 'icons/twitter.png',
-            websiteURL: 'https://twitter.com/kiter_js',
+            url: 'icons/leetcode.png',
+            websiteURL: 'https://leetcode.com/u/noob1ta/',
           },
           {
             url: 'icons/linkedin.png',
             websiteURL:
-              'https://www.linkedin.com/in/tomas-gonzalez-perez-8784a2133/',
+              'https://www.linkedin.com/in/jagrit-seth-86685a177',
           },
           {
             url: 'icons/github.png',
-            websiteURL: 'https://github.com/TomasGonzalez',
+            websiteURL: 'https://github.com/trippy-nobita',
           },
           {
             url: 'icons/email.png',
-            websiteURL: 'mailto:tomasgp14@gmail.com',
+            websiteURL: 'mailto:vermajagrit17@gmail.com',
           },
         ],
       },

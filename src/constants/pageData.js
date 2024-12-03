@@ -1,9 +1,9 @@
-/* 
-  There are some weird things happening with the offset and the camera 
+/*
+  There are some weird things happening with the offset and the camera
   movement because of the implementation of the smooth stop of the camera.
 
-  My solution is to define two diferent positions.
-  position is relative to the scrollComponent, that's for the nav bar, 
+  My solution is to define two different positions.
+  position is relative to the scrollComponent, that's for the nav bar,
   displayPosition is the offset of the default camara position when facing the cube.
 */
 
@@ -24,27 +24,12 @@ export const EXPERIENCE = {
   },
   items: [
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'websites-preview/samsung.png',
+      websiteURL: 'https://www.samsung.com/in',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
-    },
-    {
-      url: 'websites-preview/cs2.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
-    },
-    {
-      url: 'websites-preview/knack-page.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/knack.html',
-    },
-    {
-      url: 'websites-preview/magic.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
+      url: 'websites-preview/rizzle.png',
+      websiteURL: 'https://rizzle.com',
     },
   ],
 };
@@ -56,18 +41,18 @@ export const SKILLS_LIST = {
   topPadding: 0.33,
   scale: 0.15,
   items: [
-    { url: 'icons/react-native.png', websiteURL: null },
     { url: 'icons/react-logo.png', websiteURL: null },
     { url: 'icons/ts-logo.png', websiteURL: null },
     { url: 'icons/js-logo.png', websiteURL: null },
     { url: 'icons/css-logo.png', websiteURL: null },
     { url: 'icons/html-logo.png', websiteURL: null },
     { url: 'icons/node-js-logo.png', websiteURL: null },
-    { url: 'icons/python-logo.png', websiteURL: null },
-    { url: 'icons/three-js-logo.png', websiteURL: null },
-    { url: 'icons/jest-logo.png', websiteURL: null },
     { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
+    { url: 'icons/mongoDB-logo.png', websiteURL: null },
+    { url: 'icons/aws-logo.png', websiteURL: null },
+    { url: 'icons/docker-logo.png', websiteURL: null },
+    { url: 'icons/kubernetes-logo.png', websiteURL: null },
+    { url: 'icons/git-logo.png', websiteURL: null },
   ],
 };
 
