@@ -27,7 +27,7 @@ const configs = {
       title: 'Who Am I?',
       infos: [
         "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
-        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
+        '* My journey as a software developer started when I was a just a kid trying to figure out how video games were made.',
         '* I started my career as a full-stack developer around 3 years ago in 2022, and since then I have helped Samsung and Rizzle to develop quality products.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
       ],
@@ -67,7 +67,7 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://drive.google.com/file/d/1B7M2g9x3t9QrWcLT8rbqgdsgjxSfGAGr/view?usp=drive_link',
+              'https://drive.google.com/file/d/1wcz-5qI9oWWaANVai9U51FyZA-e5bzX0/view?usp=sharing',
           },
         ],
       },
